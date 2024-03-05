@@ -25,6 +25,9 @@ header{
     position: fixed;
     width: 100%;
 }
+header img{
+   margin-right: 50px;
+}
 nav{
     padding: 1% 0;
 	display: flex;
@@ -41,7 +44,12 @@ nav ul{
 nav ul li{
 	list-style: none;
 }
-
+.dvalores .valores{
+    margin-left: 130px;
+}
+nav ul{
+    margin-left: 50px;
+}
 nav ul li a{
 	text-decoration: none;
 	padding: 5px 17px;
@@ -49,7 +57,9 @@ nav ul li a{
 	color: white;
     font-size: 18px;
 }
-
+.doh1 p{
+padding: 50px;
+}
 nav ul li a:hover{
 	border-bottom: solid 3px #E5D352;
 	background-color: rgba(237, 218, 166, 0.79);
@@ -60,7 +70,7 @@ nav ul li a:hover{
 }
 
 .banner{
-	background-image: url(../imagem/23360833.jpg);
+	background-image: url(../imagem/Foto1.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -68,6 +78,18 @@ nav ul li a:hover{
     height: 1365px;
 }
 
+.imagens {
+    text-align: center;
+    align-items: center;
+}
+.imagens img{
+    padding: 15px;
+    
+}
+h1{
+    color: #477998;
+    padding: 30px;
+}
 .banner h1{
 	color: white;
 	text-shadow: 3px 3px 3px #477998;
@@ -98,7 +120,8 @@ h3{
     color: #477998;
     text-align: center;
     text-shadow: 2px 2px 4px white;
-    margin: 20px 0px;
+    padding-top: 30px;
+    margin: 20px 20px;
     font-size: 20pt;
 }
 .container .texto{
@@ -122,18 +145,23 @@ text-align: center;
 margin: 5px 10px;
 width: 300px;
 }
-
+.valores .servico h4 {
+    color: black;
+}
 .valores p{
     line-height: 25px;
     text-align: justify;
+    color: black;
 }
 
 section{
 	margin-bottom: 0;
     background-color: #F3EFE0;
-    padding: 40px 0;
+    padding: 20px 0;
 }
-
+div .imagem{
+    margin-bottom: 15px;
+}
 section h2{
 	text-align: center;
     font-size: 22px;
@@ -150,11 +178,8 @@ section .imagens{
     border-radius: 5px;
     padding: 10px;
 }
-
-
 .imagens .texto{
 	width: 550px;
-	text-align: justify;
 }
 
 .imagens h3{
@@ -206,19 +231,18 @@ section .imagens{
     
 }
 
-
-
-
 .contatos{
     
     background-color: #477998;
-    padding: 30px 10px;
-    padding: 15px 70px;
+   
+    padding:15px 70px;
 }
 
 .contatos img{
     width: 30px;
     height: 30px;
+    padding: auto;
+    align-items: baseline;
 }
 
 .contatos p{
